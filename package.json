@@ -1,11 +1,11 @@
 {
     "name": "react-widget-resize-observer",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "resize-observer",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "transform-es src -d lib -c -w"
+        "start": "transform-es src -d lib -c -w --corejs false"
     },
     "repository": {
         "type": "git",
